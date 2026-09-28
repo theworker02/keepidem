@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/keepidem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Keep validation gates for idem inputs before they hit prod.",
+  "bin": {
+    "keepidem": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/keepidem.git"
+  },
+  "homepage": "https://theworker02.github.io/keepidem/",
+  "keywords": [
+    "keep",
+    "idem",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
